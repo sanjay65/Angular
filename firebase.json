@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": "dist/dataBase",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "s",
+    "indexes": "firestore.indexes.json"
+  }
+}
